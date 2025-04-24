@@ -10,6 +10,8 @@ h2 {
   padding: 0;
 }
 
+/* Hero  */
+
 .header-container {
   background-color: #1f2937;
 }
@@ -59,13 +61,43 @@ h2 {
   color: #e5e7eb;
 }
 
+/* Content hero */
+
 .content {
   font-size: 18px;
   color: #1f2937;
+  text-align: center;
 }
+
+.content-title {
+  padding-bottom: 25px;
+  padding-top: 25px;
+}
+
+.content-items {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 50px;
+}
+
+.content-item {
+  max-width: 200px;
+}
+
+.content-image {
+  width: 150px;
+  height: 150px;
+}
+
+/* Quote  */
 
 .content-quote {
   background-color: #e5e7eb;
+  padding: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .quote {
   font-size: 24px;
@@ -74,11 +106,38 @@ h2 {
   color: #1f2937;
 }
 
+.quote-author {
+  align-self: end;
+}
+
+/* Call to action */
+
 .call-action,
 .call-action-button {
   background-color: #3882f6;
+  color: #f9f9f9;
+  border: solid white 1px;
+  border-radius: 3px;
 }
+
+.call-action {
+  margin: 100px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+/* Footer  */
 
 .footer {
   background-color: #1f2937;
+  color: white;
+}
+
+.footer p {
+  margin: 0;
+  padding: 20px;
+  text-align: center;
 }
